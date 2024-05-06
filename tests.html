@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: black;
+}
+</style>
+</head>
+<body>
+ <div class="notice noticeBlue">
+     <title>Aperture Science</title>
+        Hello!<br />Here are some tests.
+        <a href="/index.html">Go Back Home</a>
+
+}
+        <p>promocode_example<p>
+        <p>Originally, Marcrexify Hub was going to be a much more fleshed out Marcrexify for fear of no JavaScript support in any way. However, now we can in fact do some things with JavaScript that were originally gonna be a Hub feature. For example, promocodes! And no, it's not gonna look like this. Codes to test: "VALENTINE" "SUPERBOWL"<p>
+        
+        <html><head><style> body {color: white;} button {
+    background-color: green;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px outset rgb(118, 118, 118);
+}
+button:active {
+        border: 2px inset rgb(118, 118, 118)
+}</style></head><body><label for="promocode_inp">Enter promo code: </label><input id="promocode_inp" placeholder="Promo code..." /><br /><button id="check" onclick="check()">Check promo code</button><p id="promocode_status"></p><script>var promocodes = ["valentine", "superbowl"]; var promocode_vals = {"valentine": "Congrats! Pretend you got a heart item now.", "superbowl": "Congrats! Pretend you got a superbowl item now."}; function check() {var promocode_entered = document.querySelector("#promocode_inp").value.toLowerCase(); if (promocodes.includes(promocode_entered)) {document.querySelector("#promocode_status").innerHTML=promocode_vals[promocode_entered]} else {document.querySelector("#promocode_status").innerHTML="Invalid promocode.";}}</script></body></html>
+
+  <p>testing_js<p>
+  <p>Demonstration of JavaScript usage in Neocities. I'm not styling this webpage, making the button look cool, or really anything like that. So don't expect it. Just a simple test. Also I like the "testing_js" up there and this is site so I can put whatever I want.<p>
+  
+  <button id="btn" onclick="hi();">hi</button><script>var times = 0;function hi() {times++; let p_elem = document.createElement("p"); p_elem.innerHTML=`If you're seeing this. Then it was a success. The only way this thing would have been able to be generated, is with working JavaScript. It looks to me that it requires an iframe which is sandboxed so nothing TOO crazy unfortunately (cannot interact with the actual website due to security features). However, content can still be dynamically generated. Are you still reading this? Did you know that you can press the button and make this message appear more than once? I didn't write any code to stop that. Yknow what, send me the words "haha i read". You've pressed the button ${times} times.`; document.body.appendChild(p_elem); top.document.body.appendChild(p_elem); top.console.log("Yo");}</script>
+  
+  </body>
+</html>
