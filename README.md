@@ -6,4 +6,4 @@ Credit to TabTray for some of the coding and idea for making this site! Another 
 
 TabTray's Site: https://tabtray.neocities.org
 
-npxl32's Site: https://www.npxl32.com (Have to have the www. in there)
+npxl32's Site: https://npxl32.com
